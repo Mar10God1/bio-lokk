@@ -1,0 +1,123 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: white;
+}
+
+.content img {
+  padding-bottom: 100px;
+  max-width: 90%;
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+
+}
+
+.main {
+  border-top: 5px solid #a67c52;
+  color: white;
+  position: relative;
+}
+
+.main video {
+  width: 100%;
+  border-bottom: 5px solid #a67c52;
+}
+
+.main .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.main h1 {
+  font-size: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  padding-bottom: 20px;
+}
+
+.btn {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #a67c52;
+  color: #00360f;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 16px 26px;
+  text-decoration: none;
+}
+
+.supporting {
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.supporting h2 {
+  font-size: 48px;
+  font-weight: 300;
+
+}
+
+.supporting p {
+  color: #333;
+  font-size: 21px;
+  font-weight: 300;
+  padding: 0 30px;
+  padding-bottom: 50px;
+}
+
+.supporting img{
+  height: 65px;
+  margin-bottom: -30px;
+}
+
+.open {
+  border-top: 5px solid #a67c52;
+  border-bottom: 5px solid #a67c52;
+  background: url("images/lock-open.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.open:hover {
+  background: url("images/lock-closed.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+  border-top: 5px solid #a67c52;
+  color: #a67c52;
+  text-align: left;
+  background-color: #00360f;
+  padding: 30px;
+}
+
+@media (max-width: 960px) {
+  .main {
+    height: 540px;
+  }
+  .main video {
+    height: 540px;
+    width: 960px;
+  }
+  .main h1 {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1100px) {
+  .open {
+    height: 600px;
+}
+  .open:hover {
+    height: 600px;
+}
+}
