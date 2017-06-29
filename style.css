@@ -80,14 +80,14 @@ html, body {
 .open {
   border-top: 5px solid #a67c52;
   border-bottom: 5px solid #a67c52;
-  background: url("blob/master/images/lock-open.JPG");
+  background: url("images/lock-open.JPG");
   height: 500px;
   background-size: cover;
   background-position: center;
 }
 
 .open:hover {
-  background: url("blob/master/images/lock-closed.JPG");
+  background: url("images/lock-closed.JPG");
   height: 500px;
   background-size: cover;
   background-position: center;
